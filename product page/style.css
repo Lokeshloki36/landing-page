@@ -1,0 +1,319 @@
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    display: flex;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+}
+
+.logo i {
+    font-size: 2rem;
+}
+
+.logo-text {
+    margin: 5px;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    margin-top: 2%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.addicon {
+    display: flex;
+    align-items: center;
+}
+
+.add-first {
+    margin-left: 15px;
+    font-size: 0.85rem;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin: 3px;
+}
+
+.nav-search {
+    margin-left: 5px;
+    display: flex;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    border: none;
+}
+
+.search {
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.search:hover {
+    border: 2px solid orange;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 172, 18, 0.822);
+    border-radius: 4px;
+    font-size: 1.2rem;
+    color: #0F1111;
+}
+
+.first-text,
+.first-order-text {
+    font-size: 0.75rem;
+}
+
+.second-text,
+.second-order-text {
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+.nav-cart {
+    display: flex;
+    align-items: center;
+}
+
+.nav-cart i {
+    font-size: 1.5rem;
+}
+
+.nav-cart p {
+    margin-left: 4px;
+    font-weight: 700;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: dimgrey;
+    width: 100%;
+    color: white;
+}
+
+.panel-menu {
+    display: flex;
+}
+
+.panel-menu i {
+    margin-right: 3px;
+    font-size: 1rem;
+}
+
+.panel-ops {
+    width: 70%;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px
+}
+
+.panel-deals {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deals-icon p {
+    margin-left: 3px;
+    ;
+}
+
+.deals-icon {
+    display: flex;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.panel-image {
+    background-image: url(img_1.jpg);
+    height: 120px;
+    background-size: cover;
+    border: 1.5px solid white;
+}
+
+.main-image {
+    background-image: url(80_inr.jpg);
+    height: 550px;
+    background-size: cover;
+    border: 1.5px solid white;
+}
+
+.first-line,
+.second-line {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.achievements-icons {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.achievements-icons i {
+    font-size: 70px;
+}
+
+.achievements-icons span {
+    font-weight: 700;
+}
+
+.heading {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+}
+
+.boxes {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 500px;
+    width: 18%;
+    border: 2px solid black;
+    ;
+}
+
+.box-img {
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-img h4 {
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.See-All {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.poster-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner {
+    height: 400px;
+    width: 45%;
+    border: none;
+}
+
+.banner h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.poster-img {
+    height: 400px;
+    background-size: cover;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.foot-panel2 {
+    height: 275px;
+    background-color: #131a22;
+    color: white;
+}
+
+.footer-lists {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-list {
+    margin-top: 15px;
+}
+
+.foot-list ul {
+    list-style-type: none;
+}
+
+.foot-list h3 {
+    margin-left: 30px;
+}
+
+.social-icons {
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons i {
+    font-size: 32px;
+}
+
+.foot-text {
+    margin-top: 50px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
